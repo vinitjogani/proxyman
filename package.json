@@ -4,7 +4,7 @@
     "http-proxy-middleware": "^2.0.6"
   },
   "name": "@vjog/proxyman",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

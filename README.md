@@ -16,4 +16,10 @@ Proxyman is just that. It allows you to define a quick development reverse proxy
 proxyman 5000 /:8000 /ui:5173
 ```
 
-Running them locally
+**Example 2:** Map all requests to `/` to `localhost:8000` but fall back to `localhost:8001` if it returns a `404`.
+
+```
+proxyman 5000 /:8000:8001
+```
+
+And that's pretty much it. You can use any combination of reverse proxies to run over localhost using this simple process.
